@@ -3,10 +3,11 @@ export default {
     name: "Geld-Abenteuer",
     slug: "kids-money-adventure-3d",
     version: "1.0.0",
+    sdkVersion: "57.0.0",
     orientation: "portrait",
     userInterfaceStyle: "light",
     newArchEnabled: true,
-    assetBundlePatterns: ["**/*"],
+    assetBundlePatterns": ["**/*"],
     ios: {
       supportsTablet: true,
       bundleIdentifier: "com.munthernashar.kidsmoneyadventure",
