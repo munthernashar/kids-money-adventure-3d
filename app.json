@@ -1,1 +1,26 @@
-{"expo":{"name":"Geld-Abenteuer","slug":"kids-money-adventure-3d","version":"1.0.0","orientation":"portrait","userInterfaceStyle":"light","assetBundlePatterns":["**/*"]}}
+{
+  "expo": {
+    "name": "Geld-Abenteuer",
+    "slug": "kids-money-adventure-3d",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.munthernashar.kidsmoneyadventure"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.munthernashar.kidsmoneyadventure"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": []
+  }
+}
