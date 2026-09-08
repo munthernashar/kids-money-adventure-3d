@@ -3,7 +3,6 @@ import { StyleSheet, View, Text, SafeAreaView, Dimensions, TouchableOpacity, Mod
 import { StatusBar } from 'expo-status-bar';
 import { Canvas } from '@react-three/fiber';
 import { OrbitControls, Box, Sphere } from '@react-three/drei';
-import * as THREE from 'three';
 
 const WIDTH = Dimensions.get('window').width;
 const HEIGHT = Dimensions.get('window').height;
